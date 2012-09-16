@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Shouter.Models.Shout>
+@using Shouter.Helpers
+
+<table class="table table-stripped">
+@foreach (var item in Model) {
+    <tr>
+        <td>
+        @Gravatar.GetHtml(item.User.UserEmail)
+        </td>
+        <td>
+        <a href="mailto:@Html.DisplayFor(modelItem => item.User.UserEmail)">@Html.DisplayFor(modelItem => item.User.UserEmail)</a>
+        </td>
+        <td>
+        @Html.DisplayFor(modelItem => item.ShoutText)
+        </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+       @HtmlHelpers.ShoutAge(item.ShoutCreationTime)
+    </td>
+   </tr>
+}
+</table>

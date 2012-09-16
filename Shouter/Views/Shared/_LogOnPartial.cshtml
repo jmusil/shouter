@@ -1,0 +1,7 @@
+﻿</br>
+@if (Request.IsAuthenticated)
+{
+    <div class="row">
+      <div class="span4 offset8">[ @Html.ActionLink("Log Off", "LogOff", "Account") ]</div>
+    </div>
+}

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Shouter.Models.Shout>
+
+<table>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+        Here goes Gravatar!
+        </td>
+        <td>
+        Here goes email.
+        </td>
+        <td>
+        @Html.DisplayFor(modelItem => item.Text)
+        </td>
+   </tr>
+   <tr>
+    <td>
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PublishDate)
+    </td>
+   </tr>
+}
+
+</table>
+

@@ -1,0 +1,8 @@
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\bin\Shouter.dll
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\bin\Shouter.pdb
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\bin\EntityFramework.dll
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\bin\Microsoft.Web.Helpers.dll
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\bin\EntityFramework.xml
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\obj\Debug\Shouter.dll
+C:\Users\Adm1n\documents\visual studio 2010\Projects\Shouter\Shouter\obj\Debug\Shouter.pdb

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Shouter.Models.Shout>
+
+@{
+    ViewBag.Title = "Shouter";
+}
+
+
+@using (Ajax.BeginForm("AddShout", "Shouts", new AjaxOptions {
+    HttpMethod = "GET",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "postedShouts",
+    OnSuccess = "done"
+    }))
+    {
+        <input type="text" name="q" id="q" />
+        <input type="submit" value="Shout" onclick="validate()" />
+    }
+
+<div id="postedShouts"> 
+
+</div>
+
+
